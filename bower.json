@@ -1,0 +1,32 @@
+{
+  "name": "nodecg-show-hide",
+  "version": "0.1.0",
+  "authors": [
+    "ProbablePrime"
+  ],
+  "description": "Nodecg show/hide controls with Polymer",
+  "main": "nodecg-message-button.html",
+  "moduleType": [],
+  "keywords": [
+    "nodecg",
+    "dashboard",
+    "polymer",
+    "button"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "nodecg-message-button": "ProbablePrime/nodecg-message-button"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ProbablePrime/nodecg-show-hide"
+  }
+}

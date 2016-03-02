@@ -1,0 +1,25 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../nodecg-message-button/nodecg-message-button.html">
+
+<dom-module id="nodecg-show-hide">
+    <style>
+        :host {
+            display: flex;
+        }
+        nodecg-message-button {
+            flex:1;
+        }
+    </style>
+    <template>
+        <nodecg-message-button class="success" raised message="show">SHOW</nodecg-message-button>
+        <nodecg-message-button class="danger" raised message="hide">HIDE</nodecg-message-button>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'nodecg-show-hide'
+    });
+</script>
+
+
